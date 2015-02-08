@@ -1,0 +1,43 @@
+<html>
+<head><title>I-Love-Weiqi Options</title></head>
+<script type="text/javascript">
+// TODO:
+// see http://stackoverflow.com/a/25395694/120151
+// Extract Javascript code to options.js
+
+// Saves options to localStorage.
+function saveOptions() {
+  var url = document.getElementById("url").value;
+  localStorage["iloveweiqi-url"] = url;
+
+  // Update status to let user know options were saved.
+  var status = document.getElementById("status");
+  status.innerHTML = "Options Saved.";
+  setTimeout(function() {
+    status.innerHTML = "";
+  }, 750);
+}
+
+// Restores select box state to saved value from localStorage.
+function restoreOptions() {
+  var url = localStorage['url'];
+  if (!url) return;
+
+  document.getElementById('url').value = url;
+}
+
+</script>
+
+<body onload="restoreOptions()">
+
+NOTE: This is for advanced user only!!
+<br/><br/>
+Please enter the URL to be loaded:<br/>
+<input type="text" name="url" id='url'></input>
+
+<br>
+<button onclick="saveOptions()">Save</button>
+<span id="status">
+</body>
+</html>
+
