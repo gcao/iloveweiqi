@@ -5,7 +5,7 @@ This Chrome extention can enhance game replay functionality on several popular W
 
 ## Installation
 
-It can be installed from [Chrome Web Store](https://chrome.google.com/webstore/detail/???).
+It can be installed from [Chrome Web Store](https://chrome.google.com/webstore/detail/i-love-weiqi/koplcfnjhgdknjgaaleockdkelgplfbf?hl=en-US).
 
 ## Usage
 

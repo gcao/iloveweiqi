@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "I Love Weiqi",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Replace builtin Weiqi viewer with a beautiful and intuitive viewer",
   "background": "background.html",
   "options_page": "options.html",

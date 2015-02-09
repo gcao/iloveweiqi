@@ -3,7 +3,8 @@
 
 //console.log('iloveweiqi')
 
-var URL = "http://localhost:8000/jsgameviewer/js/test.js";
+//var URL = "http://localhost:8000/jsgameviewer/js/test.js";
+var URL = "http://gcao.github.io/jsgameviewer/js/test.js";
 var SCRIPT_ID = "iloveweiqi-script";
 
 // Add a cache id param to url to force reload this script every hour
